@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.task-form input {
+  margin: 5px;
+  padding: 8px;
+}
+
+.task-form button {
+  padding: 8px 12px;
+}
+
+.task-card {
+  background: #222;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  margin-right: 8px;
+}
+
+/* Analytics Chart Styles */
+.analytics-chart {
+  background: #222;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.analytics-chart h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.analytics-empty {
+  background: #222;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+  text-align: center;
+  color: #888;
+}
+
+/* Stats Styles */
+.stats {
+  background: #222;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.stats h2, .stats h3 {
+  margin: 5px 0;
+}
